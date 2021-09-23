@@ -5,6 +5,7 @@ function myFunction(myObj, checkProp) {
     }
     return "Not Found";
     
+   
     // Only change code above this line
 }
 module.exports = myFunction;

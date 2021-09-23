@@ -2,7 +2,7 @@ function getUsername(email) {
     var username = '';
 
     //Only Change code below this line
-    username = {
+    var username = {
         "user1@gmail.com": "user1",
         "user2@gmail.com": "user2",
         "user3@gmail.com": "user3",
