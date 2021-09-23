@@ -3,12 +3,12 @@ function getUsername(email) {
 
     //Only Change code below this line
     var username = {
-        "user1@gmail.com": "user1",
-        "user2@gmail.com": "user2",
-        "user3@gmail.com": "user3",
-        "user4@gmail.com": "user4",
-        "user5@gmail.com": "user5",
-        "user6@gmail.com": "user6"
+        "user1@mail.com": "user1",
+        "user2@mail.com": "user2",
+        "user3@mail.com": "user3",
+        "user4@mail.com": "user4",
+        "user5@mail.com": "user5",
+        "user6@mail.com": "user6"
     };
     username = username[email];    
     // Only change code above this line
@@ -16,5 +16,5 @@ function getUsername(email) {
     return username;
 }
 
-getUsername("user2@gmail.com");
+getUsername("user2@mail.com");
 module.exports = getUsername;
